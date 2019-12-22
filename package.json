@@ -1,0 +1,23 @@
+{
+  "name": "crawler-scripts",
+  "version": "1.0.0",
+  "description": "Random crawler scripts to grab data from web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xenithz/node-crawler-scripts.git"
+  },
+  "author": "Angelo Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xenithz/node-crawler-scripts/issues"
+  },
+  "homepage": "https://github.com/Xenithz/node-crawler-scripts#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
