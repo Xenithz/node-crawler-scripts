@@ -9,11 +9,8 @@ const getPageViewers = async (link) => {
         viewers.push($(elem).text().trim());
     });
 
-    console.log(viewers);
     return viewers;
 };
-
-getPageViewers('https://gflclan.com/forums/');
 
 module.exports = {
     getPageViewers
